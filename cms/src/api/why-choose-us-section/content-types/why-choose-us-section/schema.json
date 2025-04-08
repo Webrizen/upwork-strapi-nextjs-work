@@ -4,7 +4,8 @@
   "info": {
     "singularName": "why-choose-us-section",
     "pluralName": "why-choose-us-sections",
-    "displayName": "why-choose-us-section"
+    "displayName": "why-choose-us-section",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -23,15 +24,15 @@
       "required": true
     },
     "main_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
+      ]
     },
     "highlight_title": {
       "type": "string",
@@ -43,7 +44,7 @@
     "features_list": {
       "displayName": "features",
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "features.features"
     }
   }

@@ -373,6 +373,7 @@ export interface ApiWhyChooseUsSectionWhyChooseUsSection
   extends Struct.CollectionTypeSchema {
   collectionName: 'why_choose_us_sections';
   info: {
+    description: '';
     displayName: 'why-choose-us-section';
     pluralName: 'why-choose-us-sections';
     singularName: 'why-choose-us-section';
@@ -384,7 +385,7 @@ export interface ApiWhyChooseUsSectionWhyChooseUsSection
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    features_list: Schema.Attribute.Component<'features.features', false>;
+    features_list: Schema.Attribute.Component<'features.features', true>;
     highlight_text: Schema.Attribute.Text;
     highlight_title: Schema.Attribute.String & Schema.Attribute.Required;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
