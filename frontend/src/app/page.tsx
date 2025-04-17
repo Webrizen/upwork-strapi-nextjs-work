@@ -68,7 +68,7 @@ export default async function Home() {
                 <div className="relative w-[300px] sm:w-[350px] md:w-[400px] aspect-square rounded-full">
                   <div className="absolute inset-0 rounded-full z-0 -left-1/2" />
                   {imageUrl && (
-                    <Image
+                    <img
                       src={main_image?.url}
                       alt="Section Image"
                       fill
