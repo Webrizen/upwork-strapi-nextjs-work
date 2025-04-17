@@ -12,6 +12,10 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'images.unsplash.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'shining-heart-6e7b25e598.strapiapp.com',
+      }
     ],
   },
 };
