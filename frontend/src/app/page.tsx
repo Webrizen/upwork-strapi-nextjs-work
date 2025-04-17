@@ -69,7 +69,7 @@ export default async function Home() {
                   <div className="absolute inset-0 rounded-full z-0 -left-1/2" />
                   {imageUrl && (
                     <Image
-                      src={imageUrl}
+                      src={main_image?.url}
                       alt="Section Image"
                       fill
                       className="object-cover rounded-full z-10"
