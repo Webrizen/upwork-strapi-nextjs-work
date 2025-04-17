@@ -71,7 +71,6 @@ export default async function Home() {
                     <img
                       src={main_image?.url}
                       alt="Section Image"
-                      fill
                       className="object-cover rounded-full z-10"
                     />
                   )}
